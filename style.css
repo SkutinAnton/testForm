@@ -1,0 +1,22 @@
+form {
+    width: 251px;
+}
+
+input {
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+span {
+    color: #ca0000;
+    margin-left: 5px;
+}
