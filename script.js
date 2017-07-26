@@ -4,7 +4,7 @@ button.addEventListener('click', testForm);
 
 
 function testForm() {
-    const regexpName = /[A-z]/g,
+    const regexpName = /^[a-zA-Zа-яА-Я]+$/,
         regexpNumber = /\+\d\(\d{3}\)\d{3}-\d{4}\b/g,
         regexpMail = /(\w+@\w+\.\w+)|(\w+\.\w+@\w+\.\w+)|(\w+-\w+@\w+\.\w+)/g,
         regexpArea = /\w+/g;
