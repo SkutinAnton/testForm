@@ -38,7 +38,6 @@ function testForm() {
 
 
     resultMail = regexpMail.test(getMail.value);
-    console.log(resultMail, regexpMail.exec(getMail.value));
     if (!resultMail) {
         getMail.className = "red";
         document.getElementById('errorMail').innerHTML = 'Error';
